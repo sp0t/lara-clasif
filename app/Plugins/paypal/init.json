@@ -1,0 +1,10 @@
+{
+    "name": "paypal",
+    "version": "1.6",
+    "display_name": "Paypal",
+    "description": "Payment with Paypal",
+    "author": "Bedigit",
+    "category": "payment",
+    "has_installer": true,
+    "item_id": ""
+}

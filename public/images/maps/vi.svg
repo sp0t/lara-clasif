@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+************* Copyright (c) 2017 Pareto Softare, LLC DBA Simplemaps.com *******************		
+************* Free for Commercial Use, full terms at  http://simplemaps.com/resources/svg-license ************
+************* Attribution is appreciated! http://simplemaps.com ***************************
+-->
+<svg baseprofile="tiny" fill="#7c7c7c" height="1578" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.2" viewbox="0 0 1000 1578" width="1000" xmlns="http://www.w3.org/2000/svg">
+ <path d="M208.2 186.4l-14.6 2.9-21.9 30.1-4.2-6 5.2-21.6 22.8-23.5 12.7 18.1z m26.7-128.7l152.2 87.8 30.9 49.4-23.5 3.7-18.4-6.1-23.5 8.7-14.9 22.2-65.5-24.7-23.5-14.8-18.6-37.1-8.7 19.8-19.8-13.6-44.5 8.7-32.2-6.2-24.8-27.2-65.6 19.8-33.5-32.1 61.3-32.6 52.2-13.6 75.9 2.8 31.1 22.3 18.5-6.2-33.6-26-16.1-18.6 44.6 13.6z m51.7-20.4l-8 8.1-10.2-13.9-13.4-25.9 15.9-4.6 15 11.1 0.7 25.2z" id="VIR4868" name="Saint Thomas" data-id="VIR4868" data-name="Saint Thomas">
+ </path>
+ <path d="M781.3 130.7l8.6 22.3-28.4 4.9-55.6-18.6-14.9 6.2 22.3 29.7-13.7 50.6-66.7-35.8-103.8 9.9-30.8-28.5 30.8-46.9 34.7-14.9 37-11.1-8.6-16.1 18.5-9.9 69.2 18.6 33.4 6.2 30.9 13.6 37.1 19.8z" id="VIR4869" name="Saint John" data-id="VIR4869" data-name="Saint John">
+ </path>
+ <path d="M644.2 1397.6l43.6 15.4 22.1 11.7 19.2 17.5 47.4-39.4 74.3-16.2 81.2 4.4 67 21.5 0 14.8-53.4 5.8-44.5 14.6-87.2 40.3-44.9 14.1-426.2 61.1-38.9 13.8 15.2-37.2 2.5-31.6-2.2-88.8 6.3-27.5 17-17.3 78.1 24 44-20.2 45.5-29.2 49.3-11.1 5.2 5.7 79.4 53.8z" id="VIR4870" name="Saint Croix" data-id="VIR4870" data-name="Saint Croix">
+ </path>
+ <circle cx="230.4" cy="141.7" id="0">
+ </circle>
+ <circle cx="701.3" cy="1438.1" id="1">
+ </circle>
+ <circle cx="513.9" cy="164.7" id="2">
+ </circle>
+</svg>

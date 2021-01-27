@@ -1,0 +1,339 @@
+/*
+ * JobClass - Job Board Web Application
+ * Copyright (c) BedigitCom. All Rights Reserved
+ *
+ * Website: http://www.bedigit.com
+ *
+ * LICENSE
+ * -------
+ * This software is furnished under a license and may be used and copied
+ * only in accordance with the terms of such license and with the inclusion
+ * of the above copyright notice. If you Purchased from Codecanyon,
+ * Please read the full License from here - http://codecanyon.net/licenses/standard
+ */
+@charset "utf-8";
+
+/*
+ * Skin: Blue
+ * ----------
+ */
+
+.skin-blue a,
+.skin-blue a.make-favorite {
+	color: #369;
+}
+
+.skin-blue a:hover,
+.skin-blue a:focus,
+.skin-blue a.make-favorite:hover,
+.skin-blue a.make-favorite:focus {
+	color: #FA7722;
+}
+
+.skin-blue .footer-nav li a:hover,
+.skin-blue .footer-nav li a:focus {
+	color: #333;
+	opacity: .6;
+}
+
+.skin-blue .footer-nav-inline.social-list-color li a:hover,
+.skin-blue .footer-nav-inline.social-list-color li a:focus {
+	color: #fff;
+	opacity: .6;
+}
+
+.skin-blue .link-color {
+	color: #369;
+}
+
+.skin-blue ::selection {
+	color: #fff;
+	background: #4682B4;
+}
+
+.skin-blue ::-moz-selection {
+	color: #fff;
+	background: #4682B4;
+}
+
+.skin-blue .pace .pace-progress {
+	background: #4682B4;
+}
+
+.skin-blue .search-row-wrapper {
+	background: #4682B4;
+}
+
+.skin-blue .wide-intro .search-row {
+	background-color: #4682B4;
+}
+.skin-blue button.btn-search {
+	background-color: #4682B4;
+	border-color: #4682B4;
+}
+
+.skin-blue .intro {
+	background: #4682B4;
+}
+
+.skin-blue .pricetag {
+	background: #628FB5;
+}
+
+.skin-blue .pricetag::before {
+	border-top-color: #3D709C;
+}
+
+.skin-blue .btn-primary {
+	background-color: #4682B4;
+	border-color: #4682B4;
+	color: #fff;
+}
+
+.skin-blue .btn-primary:hover,
+.skin-blue .btn-primary:focus,
+.skin-blue .btn-primary:active,
+.skin-blue .btn-primary.active,
+.skin-blue .open .dropdown-toggle.btn-primary {
+	background-color: #628FB5;
+	border-color: #628FB5;
+	color: #FFFFFF;
+}
+
+.skin-blue .btn-primary-dark {
+	background-color: #426998;
+	border-color: #426998;
+	color: #fff;
+}
+
+.skin-blue .btn-primary-dark:hover,
+.skin-blue .btn-primary-dark:focus,
+.skin-blue .btn-primary-dark:active,
+.skin-blue .btn-primary-dark.active,
+.skin-blue .open .dropdown-toggle.btn-primary-dark {
+	background-color: #3D709C;
+	border-color: #3D709C;
+	color: #FFFFFF;
+}
+
+.skin-blue .btn-info.disabled,
+.skin-blue .btn-info[disabled],
+.skin-blue fieldset[disabled] .btn-info,
+.skin-blue .btn-info.disabled:hover,
+.skin-blue .btn-info[disabled]:hover,
+.skin-blue fieldset[disabled] .btn-info:hover,
+.skin-blue .btn-info.disabled:focus,
+.skin-blue .btn-info[disabled]:focus,
+.skin-blue fieldset[disabled] .btn-info:focus,
+.skin-blue .btn-info.disabled:active,
+.skin-blue .btn-info[disabled]:active,
+.skin-blue fieldset[disabled] .btn-info:active,
+.skin-blue .btn-info.disabled.active,
+.skin-blue .btn-info.active[disabled],
+.skin-blue fieldset[disabled] .btn-info.active {
+	background-color: #3498DB;
+}
+
+.skin-blue .form-control:focus {
+	border-color: #4682B4;
+	box-shadow: 0 1px 0 #4682B4, 0 -1px 0 #4682B4, -1px 0 0 #4682B4, 1px 0 0 #4682B4;
+	outline: 0 none;
+}
+
+.skin-blue .logo,
+.skin-blue .logo-title {
+	color: #4682B4;
+}
+
+.skin-blue .cat-list h3 a,
+.skin-blue .cat-list h3 {
+	color: #4682B4;
+}
+
+.skin-blue .cat-list ul li a:hover,
+.skin-blue .cat-list a:hover {
+	color: #345676;
+}
+
+.skin-blue .list-filter ul li p.maxlist-more a {
+	color: #369;
+}
+
+.skin-blue ul.list-link li a:hover {
+	color: #345676;
+}
+
+.skin-blue .thumb-item-link:focus {
+	-webkit-box-shadow: 0 0 2px #369;
+	-moz-box-shadow: 0 0 2px #369;
+	box-shadow: 0 0 2px #369;
+	outline: none;
+}
+
+.skin-blue .thumb-item-link.active {
+	border-bottom: 4px solid #369;
+}
+
+.skin-blue .page-bottom-info {
+	background: #4682B4;
+}
+
+.skin-blue button.btn-search {
+	text-shadow: 0 2px 2px #4682B4;
+	-webkit-text-shadow: 0 2px 2px #4682B4;
+}
+
+.skin-blue .nav-pills .nav-link.active,
+.skin-blue .nav-pills .nav-link.active:focus,
+.skin-blue .nav-pills .nav-link.active:hover {
+	background-color: #337ab7;
+	color: #fff;
+}
+
+/* SHODOW */
+.skin-blue .ln-shadow {
+	background-color: #4682B4;
+	color: #fff;
+	text-shadow: 1px 1px #426998, 2px 2px #426998, 3px 3px #426998, 4px 4px #426998, 5px 5px #426998, 6px 6px #426998, 7px 7px #426998, 8px 8px #426998, 9px 9px #426998, 10px 10px #426998, 11px 11px #426998, 12px 12px #426998, 13px 13px #4682B4, 14px 14px #4682B4, 15px 15px #4682B4, 16px 16px #4682B4, 17px 17px #4682B4, 18px 18px #4682B4, 19px 19px #4682B4, 20px 20px #4682B4, 21px 21px #4682B4, 22px 22px #4682B4, 23px 23px #4682B4, 24px 24px #4682B4, 25px 25px #4682B4, 26px 26px #4682B4, 27px 27px #4682B4, 28px 28px #4682B4;
+	-webkit-text-shadow: 1px 1px #426998, 2px 2px #426998, 3px 3px #426998, 4px 4px #426998, 5px 5px #426998, 6px 6px #426998, 7px 7px #426998, 8px 8px #426998, 9px 9px #426998, 10px 10px #426998, 11px 11px #426998, 12px 12px #426998, 13px 13px #4682B4, 14px 14px #4682B4, 15px 15px #4682B4, 16px 16px #4682B4, 17px 17px #4682B4, 18px 18px #4682B4, 19px 19px #4682B4, 20px 20px #4682B4, 21px 21px #4682B4, 22px 22px #4682B4, 23px 23px #4682B4, 24px 24px #4682B4, 25px 25px #4682B4, 26px 26px #4682B4, 27px 27px #4682B4, 28px 28px #4682B4;
+	-moz-text-shadow: 1px 1px #426998, 2px 2px #426998, 3px 3px #426998, 4px 4px #426998, 5px 5px #426998, 6px 6px #426998, 7px 7px #426998, 8px 8px #426998, 9px 9px #426998, 10px 10px #426998, 11px 11px #426998, 12px 12px #426998, 13px 13px #4682B4, 14px 14px #4682B4, 15px 15px #4682B4, 16px 16px #4682B4, 17px 17px #4682B4, 18px 18px #4682B4, 19px 19px #4682B4, 20px 20px #4682B4, 21px 21px #4682B4, 22px 22px #4682B4, 23px 23px #4682B4, 24px 24px #4682B4, 25px 25px #4682B4, 26px 26px #4682B4, 27px 27px #4682B4, 28px 28px #4682B4;
+}
+
+.skin-blue .shape-0 {
+	text-shadow: 1px 1px #4682B4, 2px 2px #4682B4, 3px 3px #4682B4, 4px 4px #4682B4, 5px 5px #4682B4, 6px 6px #4682B4, 7px 7px #4682B4, 8px 8px #4682B4, 9px 9px #4682B4, 10px 10px #4682B4, 11px 11px #4682B4, 12px 12px #4682B4, 13px 13px #4682B4, 14px 14px #4682B4, 15px 15px #4682B4, 16px 16px #4682B4, 17px 17px #4682B4, 18px 18px #4682B4, 19px 19px #4682B4, 20px 20px #4682B4, 21px 21px #4682B4, 22px 22px #4682B4, 23px 23px #4682B4, 24px 24px #4682B4, 25px 25px #4682B4, 26px 26px #4682B4, 27px 27px #4682B4, 28px 28px #4682B4;
+	-moz-text-shadow: 1px 1px #4682B4, 2px 2px #4682B4, 3px 3px #4682B4, 4px 4px #4682B4, 5px 5px #4682B4, 6px 6px #4682B4, 7px 7px #4682B4, 8px 8px #4682B4, 9px 9px #4682B4, 10px 10px #4682B4, 11px 11px #4682B4, 12px 12px #4682B4, 13px 13px #4682B4, 14px 14px #4682B4, 15px 15px #4682B4, 16px 16px #4682B4, 17px 17px #4682B4, 18px 18px #4682B4, 19px 19px #4682B4, 20px 20px #4682B4, 21px 21px #4682B4, 22px 22px #4682B4, 23px 23px #4682B4, 24px 24px #4682B4, 25px 25px #4682B4, 26px 26px #4682B4, 27px 27px #4682B4, 28px 28px #4682B4;
+	
+	-webkit-text-shadow: 1px 1px #4682B4, 2px 2px #4682B4, 3px 3px #4682B4, 4px 4px #4682B4, 5px 5px #4682B4, 6px 6px #4682B4, 7px 7px #4682B4, 8px 8px #4682B4, 9px 9px #4682B4, 10px 10px #4682B4, 11px 11px #4682B4, 12px 12px #4682B4, 13px 13px #4682B4, 14px 14px #4682B4, 15px 15px #4682B4, 16px 16px #4682B4, 17px 17px #4682B4, 18px 18px #4682B4, 19px 19px #4682B4, 20px 20px #4682B4, 21px 21px #4682B4, 22px 22px #4682B4, 23px 23px #4682B4, 24px 24px #4682B4, 25px 25px #4682B4, 26px 26px #4682B4, 27px 27px #4682B4, 28px 28px #4682B4;
+	
+	background-color: #4682B4;
+}
+
+.skin-blue .shape-0-shadow {
+	text-shadow: 1px 1px #426998, 2px 2px #426998, 3px 3px #426998, 4px 4px #426998, 5px 5px #426998, 6px 6px #426998, 7px 7px #426998, 8px 8px #426998, 9px 9px #426998, 10px 10px #426998, 11px 11px #426998, 12px 12px #426998, 13px 13px #4682B4, 14px 14px #4682B4, 15px 15px #4682B4, 16px 16px #4682B4, 17px 17px #4682B4, 18px 18px #4682B4, 19px 19px #4682B4, 20px 20px #4682B4, 21px 21px #4682B4, 22px 22px #4682B4, 23px 23px #4682B4, 24px 24px #4682B4, 25px 25px #4682B4, 26px 26px #4682B4, 27px 27px #4682B4, 28px 28px #4682B4;
+	-moz-text-shadow: 1px 1px #426998, 2px 2px #426998, 3px 3px #426998, 4px 4px #426998, 5px 5px #426998, 6px 6px #426998, 7px 7px #426998, 8px 8px #426998, 9px 9px #426998, 10px 10px #426998, 11px 11px #426998, 12px 12px #426998, 13px 13px #4682B4, 14px 14px #4682B4, 15px 15px #4682B4, 16px 16px #4682B4, 17px 17px #4682B4, 18px 18px #4682B4, 19px 19px #4682B4, 20px 20px #4682B4, 21px 21px #4682B4, 22px 22px #4682B4, 23px 23px #4682B4, 24px 24px #4682B4, 25px 25px #4682B4, 26px 26px #4682B4, 27px 27px #4682B4, 28px 28px #4682B4;
+	
+	-webkit-text-shadow: 1px 1px #426998, 2px 2px #426998, 3px 3px #426998, 4px 4px #426998, 5px 5px #426998, 6px 6px #426998, 7px 7px #426998, 8px 8px #426998, 9px 9px #426998, 10px 10px #426998, 11px 11px #426998, 12px 12px #426998, 13px 13px #4682B4, 14px 14px #4682B4, 15px 15px #4682B4, 16px 16px #4682B4, 17px 17px #4682B4, 18px 18px #4682B4, 19px 19px #4682B4, 20px 20px #4682B4, 21px 21px #4682B4, 22px 22px #4682B4, 23px 23px #4682B4, 24px 24px #4682B4, 25px 25px #4682B4, 26px 26px #4682B4, 27px 27px #4682B4, 28px 28px #4682B4;
+	
+	background-color: #4682B4;
+}
+
+/* Bootstrap Pagination Color */
+.skin-blue .pagination > li > a,
+.skin-blue .pagination > li > span {
+	color: #4682B4;
+}
+.skin-blue .pagination > li > a:hover,
+.skin-blue .pagination > li > span:hover,
+.skin-blue .pagination > li > a:focus,
+.skin-blue .pagination > li > span:focus {
+	color: #345676;
+}
+.skin-blue .pagination > li.page-item.active .page-link,
+.skin-blue .pagination > .active > a,
+.skin-blue .pagination > .active > span,
+.skin-blue .pagination > .active > a:hover,
+.skin-blue .pagination > .active > span:hover,
+.skin-blue .pagination > .active > a:focus,
+.skin-blue .pagination > .active > span:focus {
+	background-color: #4682B4;
+	border-color: #4682B4;
+	color: #fff;
+}
+
+/* Cookie Consent */
+.skin-blue .cookie-consent__agree {
+	background-color: #4682b4;
+	box-shadow: 0 2px 5px rgba(70, 130, 180, 0.15);
+}
+.skin-blue .cookie-consent__agree:hover {
+	background-color: #345676;
+}
+
+/* Colors Restoration */
+.skin-blue .btn-success,
+.skin-blue .btn-warning,
+.skin-blue .btn-danger,
+.skin-blue .btn-info,
+.skin-blue .btn-default,
+.skin-blue .btn-border,
+.skin-blue .btn-fb,
+.skin-blue .btn-tw,
+.skin-blue .btn-lkin {
+	color: #fff;
+}
+.skin-blue .btn-add-listing {
+	color: #333;
+}
+.skin-blue .cornerRibbons a {
+	color: #fff;
+}
+.skin-blue .btn.focus,
+.skin-blue .btn:focus,
+.skin-blue .btn:hover {
+	color: #333;
+}
+.skin-blue .btn-primary:hover,
+.skin-blue .btn-primary:focus,
+.skin-blue .btn-primary:active,
+.skin-blue .btn-primary.active,
+.skin-blue .open .dropdown-toggle.btn-primary,
+.skin-blue .btn-success:hover,
+.skin-blue .btn-success:focus,
+.skin-blue .btn-success:active,
+.skin-blue .btn-success.active,
+.skin-blue .open .dropdown-toggle.btn-success,
+.skin-blue .btn-warning:hover,
+.skin-blue .btn-warning:focus,
+.skin-blue .btn-warning:active,
+.skin-blue .btn-warning.active,
+.skin-blue .open .dropdown-toggle.btn-warning,
+.skin-blue .btn-danger:hover,
+.skin-blue .btn-danger:focus,
+.skin-blue .btn-danger:active,
+.skin-blue .btn-danger.active,
+.skin-blue .open .dropdown-toggle.btn-danger,
+.skin-blue .btn-info:hover,
+.skin-blue .btn-info:focus,
+.skin-blue .btn-info:active,
+.skin-blue .btn-info.active,
+.skin-blue .open .dropdown-toggle.btn-info,
+.skin-blue .btn-default:hover,
+.skin-blue .btn-default:focus,
+.skin-blue .btn-default:active,
+.skin-blue .btn-default.active,
+.skin-blue .open .dropdown-toggle.btn-default,
+.skin-blue .btn-post:hover,
+.skin-blue .btn-post:active,
+.skin-blue .fb_button:hover,
+.skin-blue .btn-fb:hover,
+.skin-blue .tw_button:hover,
+.skin-blue .btn-tw:hover,
+.skin-blue .lin_button:hover,
+.skin-blue .btn-lin:hover,
+.skin-blue .lkin_button:hover,
+.skin-blue .btn-lkin:hover {
+	color: #fff;
+}
+.skin-blue .footer ul li a {
+	color: #999;
+}
+.skin-blue .btn-secondary,
+.skin-blue .btn-default {
+	color: #292b2c;
+}
+.skin-blue .btn-secondary:hover,
+.skin-blue .btn-secondary:focus,
+.skin-blue .btn-secondary:active,
+.skin-blue .btn-secondary.active,
+.skin-blue .open .dropdown-toggle.btn-secondary,
+.skin-blue .btn-default:hover,
+.skin-blue .btn-default:focus,
+.skin-blue .btn-default:active,
+.skin-blue .btn-default.active,
+.skin-blue .open .dropdown-toggle.btn-default {
+	color: #292b2c;
+}
+.skin-blue .dropdown-menu > li a:focus,
+.skin-blue .dropdown-menu > li a:hover {
+	color: #333;
+}

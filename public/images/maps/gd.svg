@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+************* Copyright (c) 2017 Pareto Softare, LLC DBA Simplemaps.com *******************		
+************* Free for Commercial Use, full terms at  http://simplemaps.com/resources/svg-license ************
+************* Attribution is appreciated! http://simplemaps.com ***************************
+-->
+<svg baseprofile="tiny" fill="#7c7c7c" height="1326" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.2" viewbox="0 0 1000 1326" width="1000" xmlns="http://www.w3.org/2000/svg">
+ <path d="M999 25l-10.2 29.7-22.2-11-3.7-12.7 36.1-6z m-96.9 62.9l-10 49.7-1.5 52.2-43.3-12.9-41.4 11.7-41 21.2-41.7 15.9 8.5-15.3 16.5-39.6 8.3-15.4-33.3 0 18.1-34.4 53 16.2 31.7-43.4 26.7-59.6 37.9-33.2 15.7 41.1-4.2 45.8z" id="GRD5069" name="Carriacou and Petite Martinique" data-id="GRD5069" data-name="Carriacou and Petite Martinique">
+ </path>
+ <path d="M460.7 888.4l-7.6 107.8-5.9 17.6-10.8 17.4-16.4 38.4 0.8 19.6 13.8 41.1-6.2 7.7-12.8 6-7.2 14.8-44.9-34.9-38.3-16.5-44.4 12.4-12.1-16.6-12.1-49.5-4.1-26.9 28.3-35.1 34.3-57.8 16.1-51.7 60.6 0 68.9 6.2z" id="GRD5070" name="Saint Andrew" data-id="GRD5070" data-name="Saint Andrew">
+ </path>
+ <path d="M408.4 1158.8l-3.8 40.1-13.5 22.5-105.2 55.4 0-18.7-21 10.3-14.4-10.3-18.2-28.9 0-43.3 16.2-55.8 32.3-10.3 44.4-12.4 38.3 16.5 44.9 34.9z" id="GRD5071" name="Saint David" data-id="GRD5071" data-name="Saint David">
+ </path>
+ <path d="M280.8 1119.8l-32.3 10.3-16.2 55.8 0 43.3 18.2 28.9 14.4 10.3-15.6 14.1-10 18.8-3.7 23.7-22.9-4.3-22.1-6.8-20.8-9.5-19.4-12-25.4 22.4-41.6 8.8-45.7-2.4-36.7-10.1 85.1-55 15.6-15.2 8.6-36.6-7-29.5-12.1-28.9-6.5-34.3 13.2-55.9 86 0 72.7-2 12.1 49.5 12.1 16.6z" id="GRD5072" name="Saint George" data-id="GRD5072" data-name="Saint George">
+ </path>
+ <path d="M315.1 933.9l-34.3 57.8-28.3 35.1 4.1 26.9-72.7 2-86 0 50.9-98.5 1.6-43.6 35.6-43.4 46.3 12 46.5 22.7 36.3 29z" id="GRD5073" name="Saint John" data-id="GRD5073" data-name="Saint John">
+ </path>
+ <path d="M331.2 882.2l-16.1 51.7-36.3-29-46.5-22.7-46.3-12 81-99 32 24.2 24.2 35.1 8 51.7z" id="GRD5074" name="Saint Mark" data-id="GRD5074" data-name="Saint Mark">
+ </path>
+ <path d="M460.7 888.4l-68.9-6.2-60.6 0-8-51.7-24.2-35.1-32-24.2 26.2-32 51.4-9.2 56 7.6 53.2 33.5-1.6 7.8-15.4 14.7 20.6 42.7 4.4 36.5-1.1 15.6z m49.8-311.9l-13.9 27.9-29.6-19.8 15.9-24.1 5.7-14.4 11-6.1 16.9 9.6-11.5 12 5.5 14.9z" id="GRD5075" name="Saint Patrick" data-id="GRD5075" data-name="Saint Patrick">
+ </path>
+ <circle cx="877.6" cy="75.8" id="0">
+ </circle>
+ <circle cx="141.3" cy="1248.4" id="1">
+ </circle>
+ <circle cx="304.9" cy="997.3" id="2">
+ </circle>
+</svg>

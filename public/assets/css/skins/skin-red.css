@@ -1,0 +1,336 @@
+/*
+ * JobClass - Job Board Web Application
+ * Copyright (c) BedigitCom. All Rights Reserved
+ *
+ * Website: http://www.bedigit.com
+ *
+ * LICENSE
+ * -------
+ * This software is furnished under a license and may be used and copied
+ * only in accordance with the terms of such license and with the inclusion
+ * of the above copyright notice. If you Purchased from Codecanyon,
+ * Please read the full License from here - http://codecanyon.net/licenses/standard
+ */
+@charset "utf-8";
+
+/*
+ * Skin: Red
+ * ---------
+ */
+
+.skin-red a {
+	color: #fa2320;
+}
+
+.skin-red a:hover,
+.skin-red a:focus {
+	color: #FA7722;
+}
+
+.skin-red .footer-nav li a:hover,
+.skin-red .footer-nav li a:focus {
+	color: #333;
+	opacity: .6;
+}
+
+.skin-red .footer-nav-inline.social-list-color li a:hover,
+.skin-red .footer-nav-inline.social-list-color li a:focus {
+	color: #fff;
+	opacity: .6;
+}
+
+.skin-red .link-color {
+	color: #fa2320;
+}
+
+.skin-red ::selection {
+	color: #fff;
+	background: #fa2320;
+}
+
+.skin-red ::-moz-selection {
+	color: #fff;
+	background: #fa2320;
+}
+
+.skin-red .pace .pace-progress {
+	background: #fa2320;
+}
+
+.skin-red .search-row-wrapper {
+	background: #fa2320;
+}
+
+.skin-red .wide-intro .search-row {
+	background-color: #fa2320;
+}
+.skin-red button.btn-search {
+	background-color: #fa2320;
+	border-color: #fa2320;
+}
+
+.skin-red .intro {
+	background: #fa2320;
+}
+
+.skin-red .pricetag {
+	background: #dd2521;
+}
+
+.skin-red .pricetag::before {
+	border-top-color: #b82320;
+}
+
+.skin-red .btn-primary {
+	background-color: #fa2320;
+	border-color: #fa2320;
+	color: #fff;
+}
+
+.skin-red .btn-primary:hover,
+.skin-red .btn-primary:focus,
+.skin-red .btn-primary:active,
+.skin-red .btn-primary.active,
+.skin-red .open .dropdown-toggle.btn-primary {
+	background-color: #dd2521;
+	border-color: #dd2521;
+	color: #FFFFFF;
+}
+
+.skin-red .btn-primary-dark {
+	background-color: #b82320;
+	border-color: #b82320;
+	color: #fff;
+}
+
+.skin-red .btn-primary-dark:hover,
+.skin-red .btn-primary-dark:focus,
+.skin-red .btn-primary-dark:active,
+.skin-red .btn-primary-dark.active,
+.skin-red .open .dropdown-toggle.btn-primary-dark {
+	background-color: #fa2320;
+	border-color: #fa2320;
+	color: #FFFFFF;
+}
+
+.skin-red .btn-info.disabled,
+.skin-red .btn-info[disabled],
+.skin-red fieldset[disabled] .btn-info,
+.skin-red .btn-info.disabled:hover,
+.skin-red .btn-info[disabled]:hover,
+.skin-red fieldset[disabled] .btn-info:hover,
+.skin-red .btn-info.disabled:focus,
+.skin-red .btn-info[disabled]:focus,
+.skin-red fieldset[disabled] .btn-info:focus,
+.skin-red .btn-info.disabled:active,
+.skin-red .btn-info[disabled]:active,
+.skin-red fieldset[disabled] .btn-info:active,
+.skin-red .btn-info.disabled.active,
+.skin-red .btn-info.active[disabled],
+.skin-red fieldset[disabled] .btn-info.active {
+	background-color: #dd2521;
+}
+
+.skin-red .form-control:focus {
+	border-color: #969696;
+	box-shadow: 0 1px 0 #969696, 0 -1px 0 #969696, -1px 0 0 #969696, 1px 0 0 #969696;
+	outline: 0 none;
+}
+
+.skin-red .logo,
+.skin-red .logo-title {
+	color: #fa2320;
+}
+
+.skin-red .cat-list h3 a,
+.skin-red .cat-list h3 {
+	color: #fa2320;
+}
+
+.skin-red .cat-list ul li a:hover,
+.skin-red .cat-list a:hover {
+	color: #8f1e1d;
+}
+
+.skin-red .list-filter ul li p.maxlist-more a {
+	color: #ab2423;
+}
+
+.skin-red ul.list-link li a:hover {
+	color: #8f1e1d;
+}
+
+.skin-red .thumb-item-link:focus {
+	-webkit-box-shadow: 0 0 2px #ab2423;
+	-moz-box-shadow: 0 0 2px #ab2423;
+	box-shadow: 0 0 2px #ab2423;
+	outline: none;
+}
+
+.skin-red .thumb-item-link.active {
+	border-bottom: 4px solid #ab2423;
+}
+
+.skin-red .page-bottom-info {
+	background: #fa2320;
+}
+
+.skin-red button.btn-search {
+	text-shadow: 0 2px 2px #fa2320;
+	-webkit-text-shadow: 0 2px 2px #fa2320;
+}
+
+.skin-red .nav-pills .nav-link.active,
+.skin-red .nav-pills .nav-link.active:focus,
+.skin-red .nav-pills .nav-link.active:hover {
+	background-color: #dd2521;
+	color: #fff;
+}
+
+/* SHODOW */
+.skin-red .ln-shadow {
+	background-color: #fa2320;
+	color: #fff;
+	text-shadow: 1px 1px #b82320, 2px 2px #b82320, 3px 3px #b82320, 4px 4px #b82320, 5px 5px #b82320, 6px 6px #b82320, 7px 7px #b82320, 8px 8px #b82320, 9px 9px #b82320, 10px 10px #b82320, 11px 11px #b82320, 12px 12px #b82320, 13px 13px #fa2320, 14px 14px #fa2320, 15px 15px #fa2320, 16px 16px #fa2320, 17px 17px #fa2320, 18px 18px #fa2320, 19px 19px #fa2320, 20px 20px #fa2320, 21px 21px #fa2320, 22px 22px #fa2320, 23px 23px #fa2320, 24px 24px #fa2320, 25px 25px #fa2320, 26px 26px #fa2320, 27px 27px #fa2320, 28px 28px #fa2320;
+	-webkit-text-shadow: 1px 1px #b82320, 2px 2px #b82320, 3px 3px #b82320, 4px 4px #b82320, 5px 5px #b82320, 6px 6px #b82320, 7px 7px #b82320, 8px 8px #b82320, 9px 9px #b82320, 10px 10px #b82320, 11px 11px #b82320, 12px 12px #b82320, 13px 13px #fa2320, 14px 14px #fa2320, 15px 15px #fa2320, 16px 16px #fa2320, 17px 17px #fa2320, 18px 18px #fa2320, 19px 19px #fa2320, 20px 20px #fa2320, 21px 21px #fa2320, 22px 22px #fa2320, 23px 23px #fa2320, 24px 24px #fa2320, 25px 25px #fa2320, 26px 26px #fa2320, 27px 27px #fa2320, 28px 28px #fa2320;
+	-moz-text-shadow: 1px 1px #b82320, 2px 2px #b82320, 3px 3px #b82320, 4px 4px #b82320, 5px 5px #b82320, 6px 6px #b82320, 7px 7px #b82320, 8px 8px #b82320, 9px 9px #b82320, 10px 10px #b82320, 11px 11px #b82320, 12px 12px #b82320, 13px 13px #fa2320, 14px 14px #fa2320, 15px 15px #fa2320, 16px 16px #fa2320, 17px 17px #fa2320, 18px 18px #fa2320, 19px 19px #fa2320, 20px 20px #fa2320, 21px 21px #fa2320, 22px 22px #fa2320, 23px 23px #fa2320, 24px 24px #fa2320, 25px 25px #fa2320, 26px 26px #fa2320, 27px 27px #fa2320, 28px 28px #fa2320;
+}
+
+.skin-red .shape-0 {
+	text-shadow: 1px 1px #fa2320, 2px 2px #fa2320, 3px 3px #fa2320, 4px 4px #fa2320, 5px 5px #fa2320, 6px 6px #fa2320, 7px 7px #fa2320, 8px 8px #fa2320, 9px 9px #fa2320, 10px 10px #fa2320, 11px 11px #fa2320, 12px 12px #fa2320, 13px 13px #fa2320, 14px 14px #fa2320, 15px 15px #fa2320, 16px 16px #fa2320, 17px 17px #fa2320, 18px 18px #fa2320, 19px 19px #fa2320, 20px 20px #fa2320, 21px 21px #fa2320, 22px 22px #fa2320, 23px 23px #fa2320, 24px 24px #fa2320, 25px 25px #fa2320, 26px 26px #fa2320, 27px 27px #fa2320, 28px 28px #fa2320;
+	-moz-text-shadow: 1px 1px #fa2320, 2px 2px #fa2320, 3px 3px #fa2320, 4px 4px #fa2320, 5px 5px #fa2320, 6px 6px #fa2320, 7px 7px #fa2320, 8px 8px #fa2320, 9px 9px #fa2320, 10px 10px #fa2320, 11px 11px #fa2320, 12px 12px #fa2320, 13px 13px #fa2320, 14px 14px #fa2320, 15px 15px #fa2320, 16px 16px #fa2320, 17px 17px #fa2320, 18px 18px #fa2320, 19px 19px #fa2320, 20px 20px #fa2320, 21px 21px #fa2320, 22px 22px #fa2320, 23px 23px #fa2320, 24px 24px #fa2320, 25px 25px #fa2320, 26px 26px #fa2320, 27px 27px #fa2320, 28px 28px #fa2320;
+	
+	-webkit-text-shadow: 1px 1px #fa2320, 2px 2px #fa2320, 3px 3px #fa2320, 4px 4px #fa2320, 5px 5px #fa2320, 6px 6px #fa2320, 7px 7px #fa2320, 8px 8px #fa2320, 9px 9px #fa2320, 10px 10px #fa2320, 11px 11px #fa2320, 12px 12px #fa2320, 13px 13px #fa2320, 14px 14px #fa2320, 15px 15px #fa2320, 16px 16px #fa2320, 17px 17px #fa2320, 18px 18px #fa2320, 19px 19px #fa2320, 20px 20px #fa2320, 21px 21px #fa2320, 22px 22px #fa2320, 23px 23px #fa2320, 24px 24px #fa2320, 25px 25px #fa2320, 26px 26px #fa2320, 27px 27px #fa2320, 28px 28px #fa2320;
+	
+	background-color: #fa2320;
+}
+
+.skin-red .shape-0-shadow {
+	text-shadow: 1px 1px #b82320, 2px 2px #b82320, 3px 3px #b82320, 4px 4px #b82320, 5px 5px #b82320, 6px 6px #b82320, 7px 7px #b82320, 8px 8px #b82320, 9px 9px #b82320, 10px 10px #b82320, 11px 11px #b82320, 12px 12px #b82320, 13px 13px #fa2320, 14px 14px #fa2320, 15px 15px #fa2320, 16px 16px #fa2320, 17px 17px #fa2320, 18px 18px #fa2320, 19px 19px #fa2320, 20px 20px #fa2320, 21px 21px #fa2320, 22px 22px #fa2320, 23px 23px #fa2320, 24px 24px #fa2320, 25px 25px #fa2320, 26px 26px #fa2320, 27px 27px #fa2320, 28px 28px #fa2320;
+	-moz-text-shadow: 1px 1px #b82320, 2px 2px #b82320, 3px 3px #b82320, 4px 4px #b82320, 5px 5px #b82320, 6px 6px #b82320, 7px 7px #b82320, 8px 8px #b82320, 9px 9px #b82320, 10px 10px #b82320, 11px 11px #b82320, 12px 12px #b82320, 13px 13px #fa2320, 14px 14px #fa2320, 15px 15px #fa2320, 16px 16px #fa2320, 17px 17px #fa2320, 18px 18px #fa2320, 19px 19px #fa2320, 20px 20px #fa2320, 21px 21px #fa2320, 22px 22px #fa2320, 23px 23px #fa2320, 24px 24px #fa2320, 25px 25px #fa2320, 26px 26px #fa2320, 27px 27px #fa2320, 28px 28px #fa2320;
+	
+	-webkit-text-shadow: 1px 1px #b82320, 2px 2px #b82320, 3px 3px #b82320, 4px 4px #b82320, 5px 5px #b82320, 6px 6px #b82320, 7px 7px #b82320, 8px 8px #b82320, 9px 9px #b82320, 10px 10px #b82320, 11px 11px #b82320, 12px 12px #b82320, 13px 13px #fa2320, 14px 14px #fa2320, 15px 15px #fa2320, 16px 16px #fa2320, 17px 17px #fa2320, 18px 18px #fa2320, 19px 19px #fa2320, 20px 20px #fa2320, 21px 21px #fa2320, 22px 22px #fa2320, 23px 23px #fa2320, 24px 24px #fa2320, 25px 25px #fa2320, 26px 26px #fa2320, 27px 27px #fa2320, 28px 28px #fa2320;
+	
+	background-color: #fa2320;
+}
+
+/* Bootstrap Pagination Color */
+.skin-red .pagination > li > a,
+.skin-red .pagination > li > span {
+	color: #fa2320;
+}
+.skin-red .pagination > li > a:hover,
+.skin-red .pagination > li > span:hover,
+.skin-red .pagination > li > a:focus,
+.skin-red .pagination > li > span:focus {
+	color: #8f1e1d;
+}
+.skin-red .pagination > li.page-item.active .page-link,
+.skin-red .pagination > .active > a,
+.skin-red .pagination > .active > span,
+.skin-red .pagination > .active > a:hover,
+.skin-red .pagination > .active > span:hover,
+.skin-red .pagination > .active > a:focus,
+.skin-red .pagination > .active > span:focus {
+	background-color: #fa2320;
+	border-color: #fa2320;
+	color: #fff;
+}
+
+/* Cookie Consent */
+.skin-red .cookie-consent__agree {
+	background-color: #fa2320;
+	box-shadow: 0 2px 5px rgba(250, 35, 32, 0.15);
+}
+.skin-red .cookie-consent__agree:hover {
+	background-color: #8f1e1d;
+}
+
+/* Colors Restoration */
+.skin-red .btn-success,
+.skin-red .btn-warning,
+.skin-red .btn-danger,
+.skin-red .btn-info,
+.skin-red .btn-default,
+.skin-red .btn-border,
+.skin-red .btn-fb,
+.skin-red .btn-tw,
+.skin-red .btn-lkin {
+	color: #fff;
+}
+.skin-red .btn-add-listing {
+	color: #333;
+}
+.skin-red .cornerRibbons a {
+	color: #fff;
+}
+.skin-red .btn.focus,
+.skin-red .btn:focus,
+.skin-red .btn:hover {
+	color: #333;
+}
+.skin-red .btn-primary:hover,
+.skin-red .btn-primary:focus,
+.skin-red .btn-primary:active,
+.skin-red .btn-primary.active,
+.skin-red .open .dropdown-toggle.btn-primary,
+.skin-red .btn-success:hover,
+.skin-red .btn-success:focus,
+.skin-red .btn-success:active,
+.skin-red .btn-success.active,
+.skin-red .open .dropdown-toggle.btn-success,
+.skin-red .btn-warning:hover,
+.skin-red .btn-warning:focus,
+.skin-red .btn-warning:active,
+.skin-red .btn-warning.active,
+.skin-red .open .dropdown-toggle.btn-warning,
+.skin-red .btn-danger:hover,
+.skin-red .btn-danger:focus,
+.skin-red .btn-danger:active,
+.skin-red .btn-danger.active,
+.skin-red .open .dropdown-toggle.btn-danger,
+.skin-red .btn-info:hover,
+.skin-red .btn-info:focus,
+.skin-red .btn-info:active,
+.skin-red .btn-info.active,
+.skin-red .open .dropdown-toggle.btn-info,
+.skin-red .btn-default:hover,
+.skin-red .btn-default:focus,
+.skin-red .btn-default:active,
+.skin-red .btn-default.active,
+.skin-red .open .dropdown-toggle.btn-default,
+.skin-red .btn-post:hover,
+.skin-red .btn-post:active,
+.skin-red .fb_button:hover,
+.skin-red .btn-fb:hover,
+.skin-red .tw_button:hover,
+.skin-red .btn-tw:hover,
+.skin-red .lin_button:hover,
+.skin-red .btn-lin:hover,
+.skin-red .lkin_button:hover,
+.skin-red .btn-lkin:hover {
+	color: #fff;
+}
+.skin-red .footer ul li a {
+	color: #999;
+}
+.skin-red .btn-secondary,
+.skin-red .btn-default {
+	color: #292b2c;
+}
+.skin-red .btn-secondary:hover,
+.skin-red .btn-secondary:focus,
+.skin-red .btn-secondary:active,
+.skin-red .btn-secondary.active,
+.skin-red .open .dropdown-toggle.btn-secondary,
+.skin-red .btn-default:hover,
+.skin-red .btn-default:focus,
+.skin-red .btn-default:active,
+.skin-red .btn-default.active,
+.skin-red .open .dropdown-toggle.btn-default {
+	color: #292b2c;
+}
+.skin-red .dropdown-menu > li a:focus,
+.skin-red .dropdown-menu > li a:hover {
+	color: #333;
+}

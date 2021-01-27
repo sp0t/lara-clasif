@@ -1,0 +1,53 @@
+# ==================================================================================
+# JobClass - Job Board Web Application
+# Copyright (c) BedigitCom. All Rights Reserved
+#
+# Website: http://www.bedigit.com
+#
+# LICENSE
+# -------
+# This software is furnished under a license and may be used and copied
+# only in accordance with the terms of such license and with the inclusion
+# of the above copyright notice. If you Purchased from Codecanyon,
+# Please read the full License from here - http://codecanyon.net/licenses/standard
+# ==================================================================================
+
+# GLOBAL RULES
+# ============
+# Remove index.php from URL
+<IfModule mod_rewrite.c>
+    RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+    RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]
+</IfModule>
+
+# Default Apache rules
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+# Iframe calling
+<IfModule mod_headers.c>
+    Header unset X-Frame-Options
+</IfModule>
+
+# CUSTOM APACHE RULES
+# ===================
+
+

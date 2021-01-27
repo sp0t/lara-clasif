@@ -1,0 +1,336 @@
+/*
+ * JobClass - Job Board Web Application
+ * Copyright (c) BedigitCom. All Rights Reserved
+ *
+ * Website: http://www.bedigit.com
+ *
+ * LICENSE
+ * -------
+ * This software is furnished under a license and may be used and copied
+ * only in accordance with the terms of such license and with the inclusion
+ * of the above copyright notice. If you Purchased from Codecanyon,
+ * Please read the full License from here - http://codecanyon.net/licenses/standard
+ */
+@charset "utf-8";
+
+/*
+ * Skin: Yellow
+ * ------------
+ */
+
+.skin-yellow a {
+	color: #e2b405;
+}
+
+.skin-yellow a:hover,
+.skin-yellow a:focus {
+	color: #FA7722;
+}
+
+.skin-yellow .footer-nav li a:hover,
+.skin-yellow .footer-nav li a:focus {
+	color: #333;
+	opacity: .6;
+}
+
+.skin-yellow .footer-nav-inline.social-list-color li a:hover,
+.skin-yellow .footer-nav-inline.social-list-color li a:focus {
+	color: #fff;
+	opacity: .6;
+}
+
+.skin-yellow .link-color {
+	color: #e2b405;
+}
+
+.skin-yellow ::selection {
+	color: #fff;
+	background: #FFD700;
+}
+
+.skin-yellow ::-moz-selection {
+	color: #fff;
+	background: #FFD700;
+}
+
+.skin-yellow .pace .pace-progress {
+	background: #FFD700;
+}
+
+.skin-yellow .search-row-wrapper {
+	background: #FFD700;
+}
+
+.skin-yellow .wide-intro .search-row {
+	background-color: #FFD700;
+}
+.skin-yellow button.btn-search {
+	background-color: #FFD700;
+	border-color: #FFD700;
+}
+
+.skin-yellow .intro {
+	background: #FFD700;
+}
+
+.skin-yellow .pricetag {
+	background: #ffd005;
+}
+
+.skin-yellow .pricetag::before {
+	border-top-color: #c89b05;
+}
+
+.skin-yellow .btn-primary {
+	background-color: #FFD700;
+	border-color: #FFD700;
+	color: #fff;
+}
+
+.skin-yellow .btn-primary:hover,
+.skin-yellow .btn-primary:focus,
+.skin-yellow .btn-primary:active,
+.skin-yellow .btn-primary.active,
+.skin-yellow .open .dropdown-toggle.btn-primary {
+	background-color: #ffec34;
+	border-color: #ffec34;
+	color: #FFFFFF;
+}
+
+.skin-yellow .btn-primary-dark {
+	background-color: #c89b05;
+	border-color: #c89b05;
+	color: #fff;
+}
+
+.skin-yellow .btn-primary-dark:hover,
+.skin-yellow .btn-primary-dark:focus,
+.skin-yellow .btn-primary-dark:active,
+.skin-yellow .btn-primary-dark.active,
+.skin-yellow .open .dropdown-toggle.btn-primary-dark {
+	background-color: #FFD700;
+	border-color: #FFD700;
+	color: #FFFFFF;
+}
+
+.skin-yellow .btn-info.disabled,
+.skin-yellow .btn-info[disabled],
+.skin-yellow fieldset[disabled] .btn-info,
+.skin-yellow .btn-info.disabled:hover,
+.skin-yellow .btn-info[disabled]:hover,
+.skin-yellow fieldset[disabled] .btn-info:hover,
+.skin-yellow .btn-info.disabled:focus,
+.skin-yellow .btn-info[disabled]:focus,
+.skin-yellow fieldset[disabled] .btn-info:focus,
+.skin-yellow .btn-info.disabled:active,
+.skin-yellow .btn-info[disabled]:active,
+.skin-yellow fieldset[disabled] .btn-info:active,
+.skin-yellow .btn-info.disabled.active,
+.skin-yellow .btn-info.active[disabled],
+.skin-yellow fieldset[disabled] .btn-info.active {
+	background-color: #ffec34;
+}
+
+.skin-yellow .form-control:focus {
+	border-color: #FFD700;
+	box-shadow: 0 1px 0 #FFD700, 0 -1px 0 #FFD700, -1px 0 0 #FFD700, 1px 0 0 #FFD700;
+	outline: 0 none;
+}
+
+.skin-yellow .logo,
+.skin-yellow .logo-title {
+	color: #FFD700;
+}
+
+.skin-yellow .cat-list h3 a,
+.skin-yellow .cat-list h3 {
+	color: #FFD700;
+}
+
+.skin-yellow .cat-list ul li a:hover,
+.skin-yellow .cat-list a:hover {
+	color: #c89b05;
+}
+
+.skin-yellow .list-filter ul li p.maxlist-more a {
+	color: #e2b405;
+}
+
+.skin-yellow ul.list-link li a:hover {
+	color: #c89b05;
+}
+
+.skin-yellow .thumb-item-link:focus {
+	-webkit-box-shadow: 0 0 2px #e2b405;
+	-moz-box-shadow: 0 0 2px #e2b405;
+	box-shadow: 0 0 2px #e2b405;
+	outline: none;
+}
+
+.skin-yellow .thumb-item-link.active {
+	border-bottom: 4px solid #e2b405;
+}
+
+.skin-yellow .page-bottom-info {
+	background: #FFD700;
+}
+
+.skin-yellow button.btn-search {
+	text-shadow: 0 2px 2px #FFD700;
+	-webkit-text-shadow: 0 2px 2px #FFD700;
+}
+
+.skin-yellow .nav-pills .nav-link.active,
+.skin-yellow .nav-pills .nav-link.active:focus,
+.skin-yellow .nav-pills .nav-link.active:hover {
+	background-color: #FFD700;
+	color: #fff;
+}
+
+/* SHODOW */
+.skin-yellow .ln-shadow {
+	background-color: #FFD700;
+	color: #fff;
+	text-shadow: 1px 1px #c89b05, 2px 2px #c89b05, 3px 3px #c89b05, 4px 4px #c89b05, 5px 5px #c89b05, 6px 6px #c89b05, 7px 7px #c89b05, 8px 8px #c89b05, 9px 9px #c89b05, 10px 10px #c89b05, 11px 11px #c89b05, 12px 12px #c89b05, 13px 13px #FFD700, 14px 14px #FFD700, 15px 15px #FFD700, 16px 16px #FFD700, 17px 17px #FFD700, 18px 18px #FFD700, 19px 19px #FFD700, 20px 20px #FFD700, 21px 21px #FFD700, 22px 22px #FFD700, 23px 23px #FFD700, 24px 24px #FFD700, 25px 25px #FFD700, 26px 26px #FFD700, 27px 27px #FFD700, 28px 28px #FFD700;
+	-webkit-text-shadow: 1px 1px #c89b05, 2px 2px #c89b05, 3px 3px #c89b05, 4px 4px #c89b05, 5px 5px #c89b05, 6px 6px #c89b05, 7px 7px #c89b05, 8px 8px #c89b05, 9px 9px #c89b05, 10px 10px #c89b05, 11px 11px #c89b05, 12px 12px #c89b05, 13px 13px #FFD700, 14px 14px #FFD700, 15px 15px #FFD700, 16px 16px #FFD700, 17px 17px #FFD700, 18px 18px #FFD700, 19px 19px #FFD700, 20px 20px #FFD700, 21px 21px #FFD700, 22px 22px #FFD700, 23px 23px #FFD700, 24px 24px #FFD700, 25px 25px #FFD700, 26px 26px #FFD700, 27px 27px #FFD700, 28px 28px #FFD700;
+	-moz-text-shadow: 1px 1px #c89b05, 2px 2px #c89b05, 3px 3px #c89b05, 4px 4px #c89b05, 5px 5px #c89b05, 6px 6px #c89b05, 7px 7px #c89b05, 8px 8px #c89b05, 9px 9px #c89b05, 10px 10px #c89b05, 11px 11px #c89b05, 12px 12px #c89b05, 13px 13px #FFD700, 14px 14px #FFD700, 15px 15px #FFD700, 16px 16px #FFD700, 17px 17px #FFD700, 18px 18px #FFD700, 19px 19px #FFD700, 20px 20px #FFD700, 21px 21px #FFD700, 22px 22px #FFD700, 23px 23px #FFD700, 24px 24px #FFD700, 25px 25px #FFD700, 26px 26px #FFD700, 27px 27px #FFD700, 28px 28px #FFD700;
+}
+
+.skin-yellow .shape-0 {
+	text-shadow: 1px 1px #FFD700, 2px 2px #FFD700, 3px 3px #FFD700, 4px 4px #FFD700, 5px 5px #FFD700, 6px 6px #FFD700, 7px 7px #FFD700, 8px 8px #FFD700, 9px 9px #FFD700, 10px 10px #FFD700, 11px 11px #FFD700, 12px 12px #FFD700, 13px 13px #FFD700, 14px 14px #FFD700, 15px 15px #FFD700, 16px 16px #FFD700, 17px 17px #FFD700, 18px 18px #FFD700, 19px 19px #FFD700, 20px 20px #FFD700, 21px 21px #FFD700, 22px 22px #FFD700, 23px 23px #FFD700, 24px 24px #FFD700, 25px 25px #FFD700, 26px 26px #FFD700, 27px 27px #FFD700, 28px 28px #FFD700;
+	-moz-text-shadow: 1px 1px #FFD700, 2px 2px #FFD700, 3px 3px #FFD700, 4px 4px #FFD700, 5px 5px #FFD700, 6px 6px #FFD700, 7px 7px #FFD700, 8px 8px #FFD700, 9px 9px #FFD700, 10px 10px #FFD700, 11px 11px #FFD700, 12px 12px #FFD700, 13px 13px #FFD700, 14px 14px #FFD700, 15px 15px #FFD700, 16px 16px #FFD700, 17px 17px #FFD700, 18px 18px #FFD700, 19px 19px #FFD700, 20px 20px #FFD700, 21px 21px #FFD700, 22px 22px #FFD700, 23px 23px #FFD700, 24px 24px #FFD700, 25px 25px #FFD700, 26px 26px #FFD700, 27px 27px #FFD700, 28px 28px #FFD700;
+	
+	-webkit-text-shadow: 1px 1px #FFD700, 2px 2px #FFD700, 3px 3px #FFD700, 4px 4px #FFD700, 5px 5px #FFD700, 6px 6px #FFD700, 7px 7px #FFD700, 8px 8px #FFD700, 9px 9px #FFD700, 10px 10px #FFD700, 11px 11px #FFD700, 12px 12px #FFD700, 13px 13px #FFD700, 14px 14px #FFD700, 15px 15px #FFD700, 16px 16px #FFD700, 17px 17px #FFD700, 18px 18px #FFD700, 19px 19px #FFD700, 20px 20px #FFD700, 21px 21px #FFD700, 22px 22px #FFD700, 23px 23px #FFD700, 24px 24px #FFD700, 25px 25px #FFD700, 26px 26px #FFD700, 27px 27px #FFD700, 28px 28px #FFD700;
+	
+	background-color: #FFD700;
+}
+
+.skin-yellow .shape-0-shadow {
+	text-shadow: 1px 1px #c89b05, 2px 2px #c89b05, 3px 3px #c89b05, 4px 4px #c89b05, 5px 5px #c89b05, 6px 6px #c89b05, 7px 7px #c89b05, 8px 8px #c89b05, 9px 9px #c89b05, 10px 10px #c89b05, 11px 11px #c89b05, 12px 12px #c89b05, 13px 13px #FFD700, 14px 14px #FFD700, 15px 15px #FFD700, 16px 16px #FFD700, 17px 17px #FFD700, 18px 18px #FFD700, 19px 19px #FFD700, 20px 20px #FFD700, 21px 21px #FFD700, 22px 22px #FFD700, 23px 23px #FFD700, 24px 24px #FFD700, 25px 25px #FFD700, 26px 26px #FFD700, 27px 27px #FFD700, 28px 28px #FFD700;
+	-moz-text-shadow: 1px 1px #c89b05, 2px 2px #c89b05, 3px 3px #c89b05, 4px 4px #c89b05, 5px 5px #c89b05, 6px 6px #c89b05, 7px 7px #c89b05, 8px 8px #c89b05, 9px 9px #c89b05, 10px 10px #c89b05, 11px 11px #c89b05, 12px 12px #c89b05, 13px 13px #FFD700, 14px 14px #FFD700, 15px 15px #FFD700, 16px 16px #FFD700, 17px 17px #FFD700, 18px 18px #FFD700, 19px 19px #FFD700, 20px 20px #FFD700, 21px 21px #FFD700, 22px 22px #FFD700, 23px 23px #FFD700, 24px 24px #FFD700, 25px 25px #FFD700, 26px 26px #FFD700, 27px 27px #FFD700, 28px 28px #FFD700;
+	
+	-webkit-text-shadow: 1px 1px #c89b05, 2px 2px #c89b05, 3px 3px #c89b05, 4px 4px #c89b05, 5px 5px #c89b05, 6px 6px #c89b05, 7px 7px #c89b05, 8px 8px #c89b05, 9px 9px #c89b05, 10px 10px #c89b05, 11px 11px #c89b05, 12px 12px #c89b05, 13px 13px #FFD700, 14px 14px #FFD700, 15px 15px #FFD700, 16px 16px #FFD700, 17px 17px #FFD700, 18px 18px #FFD700, 19px 19px #FFD700, 20px 20px #FFD700, 21px 21px #FFD700, 22px 22px #FFD700, 23px 23px #FFD700, 24px 24px #FFD700, 25px 25px #FFD700, 26px 26px #FFD700, 27px 27px #FFD700, 28px 28px #FFD700;
+	
+	background-color: #FFD700;
+}
+
+/* Bootstrap Pagination Color */
+.skin-yellow .pagination > li > a,
+.skin-yellow .pagination > li > span {
+	color: #FFD700;
+}
+.skin-yellow .pagination > li > a:hover,
+.skin-yellow .pagination > li > span:hover,
+.skin-yellow .pagination > li > a:focus,
+.skin-yellow .pagination > li > span:focus {
+	color: #c89b05;
+}
+.skin-yellow .pagination > li.page-item.active .page-link,
+.skin-yellow .pagination > .active > a,
+.skin-yellow .pagination > .active > span,
+.skin-yellow .pagination > .active > a:hover,
+.skin-yellow .pagination > .active > span:hover,
+.skin-yellow .pagination > .active > a:focus,
+.skin-yellow .pagination > .active > span:focus {
+	background-color: #FFD700;
+	border-color: #FFD700;
+	color: #fff;
+}
+
+/* Cookie Consent */
+.skin-yellow .cookie-consent__agree {
+	background-color: #FFD700;
+	box-shadow: 0 2px 5px rgba(255, 215, 0, 0.15);
+}
+.skin-yellow .cookie-consent__agree:hover {
+	background-color: #c89b05;
+}
+
+/* Colors Restoration */
+.skin-yellow .btn-success,
+.skin-yellow .btn-warning,
+.skin-yellow .btn-danger,
+.skin-yellow .btn-info,
+.skin-yellow .btn-default,
+.skin-yellow .btn-border,
+.skin-yellow .btn-fb,
+.skin-yellow .btn-tw,
+.skin-yellow .btn-lkin {
+	color: #fff;
+}
+.skin-yellow .btn-add-listing {
+	color: #333;
+}
+.skin-yellow .cornerRibbons a {
+	color: #fff;
+}
+.skin-yellow .btn.focus,
+.skin-yellow .btn:focus,
+.skin-yellow .btn:hover {
+	color: #333;
+}
+.skin-yellow .btn-primary:hover,
+.skin-yellow .btn-primary:focus,
+.skin-yellow .btn-primary:active,
+.skin-yellow .btn-primary.active,
+.skin-yellow .open .dropdown-toggle.btn-primary,
+.skin-yellow .btn-success:hover,
+.skin-yellow .btn-success:focus,
+.skin-yellow .btn-success:active,
+.skin-yellow .btn-success.active,
+.skin-yellow .open .dropdown-toggle.btn-success,
+.skin-yellow .btn-warning:hover,
+.skin-yellow .btn-warning:focus,
+.skin-yellow .btn-warning:active,
+.skin-yellow .btn-warning.active,
+.skin-yellow .open .dropdown-toggle.btn-warning,
+.skin-yellow .btn-danger:hover,
+.skin-yellow .btn-danger:focus,
+.skin-yellow .btn-danger:active,
+.skin-yellow .btn-danger.active,
+.skin-yellow .open .dropdown-toggle.btn-danger,
+.skin-yellow .btn-info:hover,
+.skin-yellow .btn-info:focus,
+.skin-yellow .btn-info:active,
+.skin-yellow .btn-info.active,
+.skin-yellow .open .dropdown-toggle.btn-info,
+.skin-yellow .btn-default:hover,
+.skin-yellow .btn-default:focus,
+.skin-yellow .btn-default:active,
+.skin-yellow .btn-default.active,
+.skin-yellow .open .dropdown-toggle.btn-default,
+.skin-yellow .btn-post:hover,
+.skin-yellow .btn-post:active,
+.skin-yellow .fb_button:hover,
+.skin-yellow .btn-fb:hover,
+.skin-yellow .tw_button:hover,
+.skin-yellow .btn-tw:hover,
+.skin-yellow .lin_button:hover,
+.skin-yellow .btn-lin:hover,
+.skin-yellow .lkin_button:hover,
+.skin-yellow .btn-lkin:hover {
+	color: #fff;
+}
+.skin-yellow .footer ul li a {
+	color: #999;
+}
+.skin-yellow .btn-secondary,
+.skin-yellow .btn-default {
+	color: #292b2c;
+}
+.skin-yellow .btn-secondary:hover,
+.skin-yellow .btn-secondary:focus,
+.skin-yellow .btn-secondary:active,
+.skin-yellow .btn-secondary.active,
+.skin-yellow .open .dropdown-toggle.btn-secondary,
+.skin-yellow .btn-default:hover,
+.skin-yellow .btn-default:focus,
+.skin-yellow .btn-default:active,
+.skin-yellow .btn-default.active,
+.skin-yellow .open .dropdown-toggle.btn-default {
+	color: #292b2c;
+}
+.skin-yellow .dropdown-menu > li a:focus,
+.skin-yellow .dropdown-menu > li a:hover {
+	color: #333;
+}

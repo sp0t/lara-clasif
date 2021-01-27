@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+************* Copyright (c) 2017 Pareto Softare, LLC DBA Simplemaps.com *******************		
+************* Free for Commercial Use, full terms at  http://simplemaps.com/resources/svg-license ************
+************* Attribution is appreciated! http://simplemaps.com ***************************
+-->
+<svg baseprofile="tiny" fill="#7c7c7c" height="888" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.2" viewbox="0 0 1000 888" width="1000" xmlns="http://www.w3.org/2000/svg">
+ <path d="M929.4 825l-57.5 3.7-46.3-4.3-60.9-29.1-120.7-82.8-118.6-35.6-76.3-44.8-68.5-55.8-29.6-51-16.1-48.1-37.9-15.5-44.5-4.2-36.3-13.7-30.8-37-71-116.2-58.8-36.3-26.4-21.2-11-32.1 5.4-84.9-4.3-45-18.3-40.3 24.3-29.8 24.5 13.7 99 42.3 42 25.9 41.7 36.7 25.7 44.4 24.1 109.9 21.3 47.4 84.9 81.3 98.7 48 291.1 71.6 33.5 20.6 13.8 30.1 6.8 47.9 18.1 29.1 53.7 45.4 82.1 84 12.7 21.8-20.6 14.2-49 9.7z" id="CUW5151" name="Curaçao" data-id="CUW5151" data-name="Curaçao">
+ </path>
+ <circle cx="436.3" cy="887" id="0">
+ </circle>
+ <circle cx="551.8" cy="572" id="1">
+ </circle>
+ <circle cx="513.3" cy="611.4" id="2">
+ </circle>
+</svg>

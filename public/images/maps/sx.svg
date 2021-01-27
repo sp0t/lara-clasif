@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+************* Copyright (c) 2017 Pareto Softare, LLC DBA Simplemaps.com *******************		
+************* Free for Commercial Use, full terms at  http://simplemaps.com/resources/svg-license ************
+************* Attribution is appreciated! http://simplemaps.com ***************************
+-->
+<svg baseprofile="tiny" fill="#7c7c7c" height="473" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.2" viewbox="0 0 1000 473" width="1000" xmlns="http://www.w3.org/2000/svg">
+ <path d="M999 298.7l-128.6 148-660.2-174.6-143.1-73.4-66.1-87.7 117-82.7 0-27.3 208.1 37.3 672.9 260.4z" id="SXM5146" name="Sint Maarten" data-id="SXM5146" data-name="Sint Maarten">
+ </path>
+ <circle cx="581" cy="322.6" id="0">
+ </circle>
+ <circle cx="530.1" cy="323.3" id="1">
+ </circle>
+ <circle cx="843.7" cy="472" id="2">
+ </circle>
+</svg>

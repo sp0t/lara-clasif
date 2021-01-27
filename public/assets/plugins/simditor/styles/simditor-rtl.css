@@ -1,0 +1,98 @@
+/*!
+* Simditor v2.3.6
+* http://simditor.tower.im/
+* 2019-02-25 by Mayeul Akpovi
+*/
+
+.simditor .simditor-wrapper > textarea {
+  padding: 22px 15px 40px;
+}
+
+.simditor .simditor-body {
+  padding: 22px 15px 40px;
+}
+
+.simditor .simditor-body img.selected {
+  box-shadow: 0 4px 0 0 #cccccc;
+}
+
+.simditor .simditor-paste-bin {
+  left: 10px;
+}
+
+.simditor .simditor-toolbar > ul {
+  padding: 0 6px 0 0;
+}
+
+.simditor .simditor-toolbar > ul > li > .toolbar-item.toolbar-item-image > input[type=file] {
+  left: 0;
+}
+
+.simditor .simditor-toolbar > ul > li.menu-on .toolbar-item {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.simditor .simditor-toolbar .toolbar-menu {
+  right: 0;
+  text-align: right;
+}
+
+.simditor .simditor-toolbar .toolbar-menu:before {
+  right: 0;
+}
+
+.simditor .simditor-toolbar .toolbar-menu.toolbar-menu-color .color-list li {
+  float: right;
+  margin: 0 0 4px 4px;
+}
+
+.simditor .simditor-toolbar .toolbar-menu.toolbar-menu-image .menu-item-upload-image input[type=file] {
+  left: 0;
+}
+
+.simditor .simditor-popover {
+  padding: 5px 8px 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.simditor .simditor-popover .settings-field {
+  margin: 0 0 5px 0;
+}
+
+.simditor .simditor-popover .settings-field label {
+  margin: 0 0 0 5px;
+}
+
+.simditor .simditor-popover.link-popover .btn-unlink, .simditor .simditor-popover.image-popover .btn-upload, .simditor .simditor-popover.image-popover .btn-restore {
+  margin: 0 5px 0 0;
+}
+
+.simditor .simditor-popover.image-popover .btn-upload input[type=file] {
+  right: 0;
+}
+
+.simditor .simditor-body h1, .simditor .simditor-body h2, .simditor .simditor-body h3, .simditor .simditor-body h4, .simditor .simditor-body h5, .simditor .simditor-body h6, .editor-style h1, .editor-style h2, .editor-style h3, .editor-style h4, .editor-style h5, .editor-style h6 {
+  margin: 40px 0 20px;
+}
+
+.simditor .simditor-body p, .simditor .simditor-body div, .editor-style p, .editor-style div {
+  margin: 0 0 15px 0;
+}
+
+.simditor .simditor-body ul, .simditor .simditor-body ol, .editor-style ul, .editor-style ol {
+  padding: 0 40px 0 0;
+}
+
+.simditor .simditor-body ul ul, .simditor .simditor-body ul ol, .simditor .simditor-body ol ul, .simditor .simditor-body ol ol, .editor-style ul ul, .editor-style ul ol, .editor-style ol ul, .editor-style ol ol {
+  padding-right: 30px;
+}
+
+.simditor .simditor-body blockquote, .editor-style blockquote {
+  border-right: 6px solid #ddd;
+  padding: 5px 10px 5px 0;
+  margin: 15px 15px 15px 0;
+}
+
+.simditor .simditor-body pre, .editor-style pre {
+  padding: 10px 10px 10px 5px;
+}

@@ -1,0 +1,159 @@
+{
+	"name": "bedigit/jobclass",
+	"type": "project",
+	"description": "Job Board Web Application.",
+	"keywords": [
+		"jobs",
+		"classified",
+		"cms",
+		"laravel",
+		"php"
+	],
+	"license": "Envato",
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/bedigit/laravel-meta-tags"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/bedigit/EloquentDataTable"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/bedigit/laravel-omnipay"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/bedigit/omnipay-2checkout"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/bedigit/omnipay-payu"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/bedigit/laravel-paystack"
+		}
+	],
+	"require": {
+		"php": "^7.2.5",
+		"aws/aws-sdk-php": "~3.0",
+		"bedigit/lara-recaptcha": "1.1.*",
+		"bileto/omnipay-payu": "dev-master",
+		"chriskonnertz/open-graph": "~2",
+		"cocur/slugify": "^4.0",
+		"collizo4sky/omnipay-2checkout": "dev-master",
+		"creativeorange/gravatar": "~1.0",
+		"cviebrock/eloquent-sluggable": "^7.0",
+		"doctrine/dbal": "^2.10",
+		"fideloper/proxy": "^4.0",
+		"fruitcake/laravel-cors": "^1.0",
+		"graham-campbell/flysystem": "^6.1",
+		"guzzlehttp/guzzle": "6.*",
+		"ignited/laravel-omnipay": "dev-master",
+		"intervention/image": "^2.5",
+		"jackiedo/dotenv-editor": "1.*",
+		"jaybizzle/crawler-detect": "1.*",
+		"jaybizzle/laravel-crawler-detect": "1.*",
+		"jenssegers/date": "^4.0",
+		"lab404/laravel-impersonate": "^1.2",
+		"laracasts/flash": "^3.0",
+		"laravel-notification-channels/twilio": "^2.0",
+		"laravel/framework": "^7.0",
+		"laravel/helpers": "^1.1",
+		"laravel/nexmo-notification-channel": "^2.0",
+		"laravel/passport": "^8.0",
+		"laravel/slack-notification-channel": "^2.0",
+		"laravel/socialite": "^4.3",
+		"laravel/tinker": "^2.0",
+		"laravelcollective/html": "^6.0.3",
+		"league/csv": "^9.5",
+		"league/flysystem-aws-s3-v3": "^1.0",
+		"league/flysystem-cached-adapter": "^1.0",
+		"league/flysystem-sftp": "^1.0",
+		"livecontrol/eloquent-datatable": "dev-master",
+		"mcamara/laravel-localization": "1.5.*",
+		"mews/purifier": "3.2.*",
+		"mhetreramesh/flysystem-backblaze": "^1.5",
+		"omnipay/paypal": "~3.0@dev",
+		"omnipay/stripe": "~3.1@dev",
+		"php-http/guzzle6-adapter": "^2.0",
+		"php-http/message": "^1.6",
+		"predis/predis": "~1.0",
+		"prologue/alerts": "^0.4.0",
+		"propaganistas/laravel-phone": "4.*",
+		"pulkitjalan/geoip": "4.*",
+		"spatie/flysystem-dropbox": "^1.0",
+		"spatie/laravel-backup": "^6.7.6",
+		"spatie/laravel-cookie-consent": "^2.2",
+		"spatie/laravel-feed": "^2.0",
+		"spatie/laravel-permission": "^3.3.1",
+		"therobfonz/laravel-mandrill-driver": "^2.0",
+		"torann/laravel-meta-tags": "dev-master",
+		"unicodeveloper/laravel-password": "1.0.*",
+		"unicodeveloper/laravel-paystack": "dev-master",
+		"vemcogroup/laravel-sparkpost-driver": "^3.0",
+		"watson/sitemap": "3.0.*"
+	},
+	"require-dev": {
+		"facade/ignition": "^2.0",
+		"fzaninotto/faker": "^1.4",
+		"mockery/mockery": "^1.0",
+		"nunomaduro/collision": "^4.1",
+		"phpunit/phpunit": "^8.5"
+	},
+	"autoload": {
+		"files": [
+			"app/Helpers/Functions/admin.php",
+			"app/Helpers/Functions/core.php",
+			"app/Helpers/Functions/plugin.php",
+			"app/Helpers/Functions/wordpress.php"
+		],
+		"classmap": [
+			"database/seeds",
+			"database/factories"
+		],
+		"psr-0": {
+			"Larapen\\LaravelLocalization": "packages/mcamara/laravel-localization/src/"
+		},
+		"psr-4": {
+			"App\\": "app/",
+			"LarapenIlluminate\\": "packages/laravel/framework/src/Illuminate/",
+			"Larapen\\TextToImage\\": "packages/larapen/texttoimage/src/",
+			"Larapen\\Admin\\": "packages/larapen/admin/src/",
+		  	"Larapen\\LaravelDistance\\": "packages/larapen/laravel-distance/src/",
+			"Larapen\\Feed\\": "packages/spatie/laravel-feed/src/",
+			"Larapen\\Impersonate\\": "packages/lab404/laravel-impersonate/src/"
+		}
+	},
+	"autoload-dev": {},
+	"extra": {
+		"laravel": {
+			"dont-discover": [
+				"lab404/laravel-impersonate",
+				"mcamara/laravel-localization",
+				"spatie/laravel-feed"
+			]
+		}
+	},
+	"scripts": {
+		"post-root-package-install": [
+			"@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+		],
+		"post-create-project-cmd": [
+			"@php artisan key:generate --ansi"
+		],
+		"post-autoload-dump": [
+			"Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+			"@php artisan package:discover --ansi"
+		]
+	},
+	"config": {
+		"preferred-install": "dist",
+		"sort-packages": true,
+		"optimize-autoloader": true
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}

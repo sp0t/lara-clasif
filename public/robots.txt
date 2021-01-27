@@ -1,0 +1,17 @@
+User-agent: *
+Disallow:
+
+Allow: /
+
+User-agent: *
+Disallow: /admin/
+Disallow: /ajax/
+Disallow: /assets/
+Disallow: /css/
+Disallow: /js/
+Disallow: /vendor/
+Disallow: /main.php
+Disallow: /mix-manifest.json
+
+
+Sitemap: http://localhost/en/ru/sitemaps.xml

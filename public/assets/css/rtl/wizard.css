@@ -1,0 +1,123 @@
+#stepWizard {
+    margin-top: 30px;
+}
+#stepWizard ul.nav-wizard {
+    background-color: #f1f1f1;
+    border: 1px solid #d4d4d4;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+#stepWizard ul.nav-wizard:before {
+    position: absolute;
+}
+#stepWizard ul.nav-wizard:after {
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 138px;
+    height: 47px;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    z-index: 11;
+    content: " ";
+}
+#stepWizard ul.nav-wizard li {
+    position: relative;
+    float: right;
+    height: 46px;
+    display: inline-block;
+    text-align: center;
+    padding: 0 30px 0 20px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 46px;
+}
+#stepWizard ul.nav-wizard li a {
+    color: #428bca;
+    padding: 0;
+}
+#stepWizard ul.nav-wizard li a:hover {
+    background-color: transparent;
+}
+#stepWizard ul.nav-wizard li:before {
+    position: absolute;
+    display: block;
+    border: 24px solid transparent;
+    border-right: 16px solid #d4d4d4;
+    border-left: 0;
+    top: -1px;
+    z-index: 10;
+    content: '';
+    left: -16px;
+}
+#stepWizard ul.nav-wizard li:after {
+    position: absolute;
+    display: block;
+    border: 24px solid transparent;
+    border-right: 16px solid #f1f1f1;
+    border-left: 0;
+    top: -1px;
+    z-index: 10;
+    content: '';
+    left: -15px;
+}
+#stepWizard ul.nav-wizard li.active {
+    color: #3a87ad;
+    background: #dedede;
+}
+#stepWizard ul.nav-wizard li.active:after {
+    border-right: 16px solid #dedede;
+}
+#stepWizard ul.nav-wizard li.active a,
+#stepWizard ul.nav-wizard li.active a:active,
+#stepWizard ul.nav-wizard li.active a:visited,
+#stepWizard ul.nav-wizard li.active a:focus {
+    color: #989898;
+    background: #dedede;
+}
+#stepWizard ul.nav-wizard .active ~ li {
+    color: #999999;
+    background: #f9f9f9;
+}
+#stepWizard ul.nav-wizard .active ~ li:after {
+    border-right: 16px solid #f9f9f9;
+}
+#stepWizard ul.nav-wizard .active ~ li a,
+#stepWizard ul.nav-wizard .active ~ li a:active,
+#stepWizard ul.nav-wizard .active ~ li a:visited,
+#stepWizard ul.nav-wizard .active ~ li a:focus {
+    color: #999999;
+    background: #f9f9f9;
+}
+#stepWizard ul.nav-wizard.nav-wizard-backnav li:hover {
+    color: #468847;
+    background: #f6fbfd;
+}
+#stepWizard ul.nav-wizard.nav-wizard-backnav li:hover:after {
+    border-right: 16px solid #f6fbfd;
+}
+#stepWizard ul.nav-wizard.nav-wizard-backnav li:hover a,
+#stepWizard ul.nav-wizard.nav-wizard-backnav li:hover a:active,
+#stepWizard ul.nav-wizard.nav-wizard-backnav li:hover a:visited,
+#stepWizard ul.nav-wizard.nav-wizard-backnav li:hover a:focus {
+    color: #468847;
+    background: #f6fbfd;
+}
+#stepWizard ul.nav-wizard.nav-wizard-backnav .active ~ li {
+    color: #999999;
+    background: #ededed;
+}
+#stepWizard ul.nav-wizard.nav-wizard-backnav .active ~ li:after {
+    border-right: 16px solid #ededed;
+}
+#stepWizard ul.nav-wizard.nav-wizard-backnav .active ~ li a,
+#stepWizard ul.nav-wizard.nav-wizard-backnav .active ~ li a:active,
+#stepWizard ul.nav-wizard.nav-wizard-backnav .active ~ li a:visited,
+#stepWizard ul.nav-wizard.nav-wizard-backnav .active ~ li a:focus {
+    color: #999999;
+    background: #ededed;
+}

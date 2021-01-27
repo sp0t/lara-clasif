@@ -1,0 +1,1 @@
+{{-- Select2 Multiple Ajax CRUD filter --}}

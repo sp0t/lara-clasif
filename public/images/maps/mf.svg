@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+************* Copyright (c) 2017 Pareto Softare, LLC DBA Simplemaps.com *******************		
+************* Free for Commercial Use, full terms at  http://simplemaps.com/resources/svg-license ************
+************* Attribution is appreciated! http://simplemaps.com ***************************
+-->
+<svg baseprofile="tiny" fill="#7c7c7c" height="687" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.2" viewbox="0 0 1000 687" width="1000" xmlns="http://www.w3.org/2000/svg">
+ <path d="M948.9 686l-501-193.9-154.8-27.7 0-37.5-60.9 12.3-111.6 39.5-28 6-69.8-40.2-21.8-43.3 23.6-29.9 219-3.7 129.4-32.1 90.2-70.6 34.6-125.4 60.2-44.9 137.6-52.8 151.8-38.9 100.9-1.9-2.1 166.8 50.1 229.9 2.7 230.8-50.1 57.5z" id="MAF5145" name="St. Martin" data-id="MAF5145" data-name="St. Martin">
+ </path>
+ <circle cx="684.8" cy="135.2" id="0">
+ </circle>
+ <circle cx="588.4" cy="321.2" id="1">
+ </circle>
+ <circle cx="588.9" cy="300.6" id="2">
+ </circle>
+</svg>

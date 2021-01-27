@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--
+************* Copyright (c) 2017 Pareto Softare, LLC DBA Simplemaps.com *******************		
+************* Free for Commercial Use, full terms at  http://simplemaps.com/resources/svg-license ************
+************* Attribution is appreciated! http://simplemaps.com ***************************
+-->
+<svg baseprofile="tiny" fill="#7c7c7c" height="699" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.2" viewbox="0 0 1000 699" width="1000" xmlns="http://www.w3.org/2000/svg">
+ <path d="M426.3 487.5l-42.3 5 2.9-33.8 39.3-4.8 0.1 33.6z" id="BMU5134" name="City of Hamilton" data-id="BMU5134" data-name="City of Hamilton">
+ </path>
+ <path d="M911.7 72.5l-35.6 22.2-16.9-31.1 37.5-24.4 15 33.3z" id="BMU5135" name="City of Saint George" data-id="BMU5135" data-name="City of Saint George">
+ </path>
+ <path d="M620.9 430.1l-70.9 44.7-24.9 34.4-25.7-50.5-50.5 26.1-4.7-61 76.7-37.3 44.4-13.4 12.8-14.3 42.8 71.3z" id="BMU5136" name="Devonshire" data-id="BMU5136" data-name="Devonshire">
+ </path>
+ <path d="M649 326.2l-35.3 30.4-12.6-23.7 10.1-11.4 37.8 4.7z m108.2-64.3l29.2 48.1-37.2 25.7-27.7-41.1 35.7-32.7z m0 0l-32.4-32.7-48.2 19.2-34.6 25-7.7 30-19.9-5-9.1-21.7 22.1-53.2 60.1-43.2 58.3 4.7 13 42.3 42.2 15.4-43.8 19.2z" id="BMU5137" name="Hamilton" data-id="BMU5137" data-name="Hamilton">
+ </path>
+ <path d="M314.2 529l14.6-21.1 32.5 15.3-11.4 11.6-35.7-5.8z m95.8 83.8l-36.8-68.5 67.8-41.9 7.9-17.6 50.5-26.1 25.7 50.5-12.9 17.9-81.2 74.9-21 10.8z" id="BMU5138" name="Paget" data-id="BMU5138" data-name="Paget">
+ </path>
+ <path d="M444.2 423.8l4.7 61-22.6 2.7-0.1-33.6-39.3 4.8-2.9 33.8-45.5-19.2-35.9-52.3 13.1-17.8 128.5 20.6z" id="BMU5139" name="Pembroke" data-id="BMU5139" data-name="Pembroke">
+ </path>
+ <path d="M786.4 310l-29.2-48.1 43.8-19.2 71.4 26.9-86 40.4z m-40.6-125l-58.3-4.7 37.3-58.7 66.4-45.5 88.6-75.1 119.2 101.4-32.5 44.2-1.6 44.2-48.7-42.3-56-13.9-18.6 21.6-26-32.7-69.8 61.5z m165.9-112.5l-15-33.3-37.5 24.4 16.9 31.1 35.6-22.2z" id="BMU5140" name="Saint George's" data-id="BMU5140" data-name="Saint George's">
+ </path>
+ <path d="M96.7 594.3l-71.3 15.2-11.4-28.6-13-53.8 39.2 18.1-5.6-35.5 14.3-47.6-21.9-48.4 30.8 11.6 14.6-28.9 19.5 28.9 25.9 26.9-37.3 32.6-11.7 56.1-9.4 16.9 21.1 17.3 76.3 9.6 0 15.4-60.1-5.8z m32.3-178.8l-19.2 9.1 42.2-60.1 29.3-28.1 14.2-26.6 22.6-13.3-8.2 31.5-28.6 27-0.5 30.3-21.6 3.6-30.2 26.6z" id="BMU5141" name="Sandys" data-id="BMU5141" data-name="Sandys">
+ </path>
+ <path d="M749.2 335.7l-40.7 28.1-87.6 66.3-42.8-71.3 23-25.9 12.6 23.7 35.3-30.4 53-2.8 19.5-28.8 27.7 41.1z" id="BMU5142" name="Smith's" data-id="BMU5142" data-name="Smith's">
+ </path>
+ <path d="M223.3 640.4l51.2-10.9 23.1 37.8-79.1 30.7-112-3.8-64.9-44.2-16.2-40.5 71.3-15.2-4.8 32.6 27.6 38.5 45.4 0 58.4-25z" id="BMU5143" name="Southampton" data-id="BMU5143" data-name="Southampton">
+ </path>
+ <path d="M410 612.8l-87.7 44.9-24.7 9.6-23.1-37.8-51.2 10.9 16.2-34.6 39-3.8 94.7-57.7 36.8 68.5z m-81.2-104.9l-14.6 21.1-39 5.8-38.9-3.9-11.4-26.9 13-9.6 35.7 9.6 37.3-13.4 17.9 17.3z" id="BMU5144" name="Warwick" data-id="BMU5144" data-name="Warwick">
+ </path>
+ <circle cx="871.6" cy="35.7" id="0">
+ </circle>
+ <circle cx="607.6" cy="309.9" id="1">
+ </circle>
+ <circle cx="26.1" cy="583.9" id="2">
+ </circle>
+</svg>
